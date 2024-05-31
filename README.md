@@ -4,7 +4,7 @@
 |  Request | header  | status  | http_server_response  |
 |:-:|:-:|:-:|:-:|
 | / private | x-allow-private = "admin"  | 200  | "message": "This is a private endpoint"  |
-| / private |  -  | 200  | "message": "This is a private endpoint"  |
+| / private |  -  | 403  |   |
 | / public  |  -  | 200  | "message": "This is a public endpoint"  |
 
 # To run this example
